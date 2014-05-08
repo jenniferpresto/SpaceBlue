@@ -15,8 +15,6 @@ var Spacebrew = require('./spacebrew.js').Spacebrew;
 // bluetooth connection
 var noble = require('noble');
 
-var port = process.env.PORT || 5000;
-
 // make this a global variable so can be accessed within multiple parts of the app
 var sb = new Spacebrew.Client();
 
